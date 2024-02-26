@@ -6,9 +6,6 @@
     <title>PWL 2024</title>
 </head>
 <body>
-    {{-- <h2>Pemrograman Web Lanjut 2024</h2>
-    <h3>Semangat Belajar Laravel 10</h3> --}}
-    <h2>Selamat Datang</h2>
-    {{ $name }}
+    <a href="{{ route('user.profile') }}">Profile</a>
 </body>
 </html>
